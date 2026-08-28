@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.streamlit/secrets.toml
+.pytest_cache/
+.coverage
+
+# Dados de runtime (recriados automaticamente pelo seed na primeira execução)
+data/storage/*.json
+!data/storage/.gitkeep
